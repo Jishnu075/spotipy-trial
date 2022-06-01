@@ -1,0 +1,42 @@
+{
+    'playlists':
+        {
+            'href': 'https://api.spotify.com/v1/search?query=sad&type=playlist&market=US&offset=0&limit=1',
+            'items': [
+                {
+                    'collaborative': False,
+                     'description': 'Somehow, heartbreak feels good in a place like this. Cover: Conan Gray',
+                     'external_urls': {
+                        'spotify': 'https://open.spotify.com/playlist/37i9dQZF1DWSqBruwoIXkA'
+                    },
+                     'href': 'https://api.spotify.com/v1/playlists/37i9dQZF1DWSqBruwoIXkA',
+                     'id': '37i9dQZF1DWSqBruwoIXkA',
+                     'images': [
+                        {
+                            'height': None,
+                            'url': 'https://i.scdn.co/image/ab67706f00000003ee468758987cfd3bcd8ba5ef',
+                             'width': None
+                             }],
+                     'name': 'sad hour',
+                     'owner': {
+                        'display_name': 'Spotify',
+                         'external_urls': {
+                            'spotify': 'https://open.spotify.com/user/spotify'},
+                         'href': 'https://api.spotify.com/v1/users/spotify',
+                         'id': 'spotify',
+                         'type': 'user',
+                         'uri': 'spotify:user:spotify'},
+                     'primary_color': None,
+                     'public': None,
+                     'snapshot_id': 'MTY1NDA3MzM1MSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl',
+                     'tracks': {
+                        'href': 'https://api.spotify.com/v1/playlists/37i9dQZF1DWSqBruwoIXkA/tracks',
+                        'total': 150},
+                     'type': 'playlist',
+                     'uri': 'spotify:playlist:37i9dQZF1DWSqBruwoIXkA'}
+                ],
+                'limit': 1,
+                'next': 'https://api.spotify.com/v1/search?query=sad&type=playlist&market=US&offset=1&limit=1',
+                'offset': 0, 'previous': None, 'total': 10001
+                }
+            }
